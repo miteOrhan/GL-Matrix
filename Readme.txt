@@ -1,0 +1,5 @@
+gl-matrix is Math library . dat.gui is library for user interface. So they are standart codes I took them from internet. Inside ellipsoid and toroid functions I generated quad, each quad is made up of two triangles that's why we have six vertices. As for math part I learned and used informations from website which explains everything really nice:
+
+http://www.gamedev.net/page/resources/_/technical/opengl/superquadric-ellipsoids-and-toroids-opengl-lig-r1172. There is also camera function in code. Camera is there for projection, it makes perspective projection of virtual world on computer screen. When you have for example box in scene camera defines how you see that box and what part of screen box takes.
+
+Depending on exponent selection mesh is dinamicly generated, size of object also affects tesselation. Ellipsoid and Toroid functions generate points inside two nested for loops
